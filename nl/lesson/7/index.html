@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <!-- TODO: Don't hard code the conclusion as page 8 -->
     <title>
-      Markdown Tutorial
+      Markdown Tutorial | Lesson 7
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="" />
@@ -99,65 +99,65 @@
           <li>
             <a
               class="lesson icon-circle-blank"
-              href="/fr/lesson/1"
+              href="/nl/lesson/1"
               data-toggle="tooltip"
-              data-original-title="Italiques et Gras"
+              data-original-title="Schuin en vetgedrukt"
             ></a>
           </li>
           <li>
             <a
               class="lesson icon-circle-blank"
-              href="/fr/lesson/2"
+              href="/nl/lesson/2"
               data-toggle="tooltip"
-              data-original-title="Titres"
+              data-original-title="Kopteksten"
             ></a>
           </li>
           <li>
             <a
               class="lesson icon-circle-blank"
-              href="/fr/lesson/3"
+              href="/nl/lesson/3"
               data-toggle="tooltip"
-              data-original-title="Liens"
+              data-original-title="Hyperlinks"
             ></a>
           </li>
           <li>
             <a
               class="lesson icon-circle-blank"
-              href="/fr/lesson/4"
+              href="/nl/lesson/4"
               data-toggle="tooltip"
-              data-original-title="Images"
+              data-original-title="Afbeeldingen"
             ></a>
           </li>
           <li>
             <a
               class="lesson icon-circle-blank"
-              href="/fr/lesson/5"
+              href="/nl/lesson/5"
               data-toggle="tooltip"
-              data-original-title="Citations"
+              data-original-title="Blokcitaten"
             ></a>
           </li>
           <li>
             <a
               class="lesson icon-circle-blank"
-              href="/fr/lesson/6"
+              href="/nl/lesson/6"
               data-toggle="tooltip"
-              data-original-title="Listes"
+              data-original-title="Lijsten"
+            ></a>
+          </li>
+          <li>
+            <a
+              class="lesson icon-circle"
+              href="/nl/lesson/7"
+              data-toggle="tooltip"
+              data-original-title="Paragrafen"
             ></a>
           </li>
           <li>
             <a
               class="lesson icon-circle-blank"
-              href="/fr/lesson/7"
+              href="/nl/conclusion"
               data-toggle="tooltip"
-              data-original-title="Paragraphes"
-            ></a>
-          </li>
-          <li>
-            <a
-              class="lesson icon-circle-blank"
-              href="/fr/conclusion"
-              data-toggle="tooltip"
-              data-original-title="Conclusion"
+              data-original-title="Conclusies"
             ></a>
           </li>
         </ul>
@@ -181,22 +181,95 @@
         instead.
       </div>
       <div class="row">
-        <h1 class="title"></h1>
+        <h1 class="title">Paragrafen</h1>
       </div>
 
-      <p>La démarque est une façon d’écrire du contenu pour le web. C’est écrit dans ce que les gens aiment appeler le “texte en clair”, qui est exactement le genre de texte que vous avez l’habitude d’écrire et de voir. Plaintext n’est que l’alphabet normal, avec quelques symboles familiers, comme les astérisques (<code>*</code> ) et les bâtons arrières ( <code>`</code> ).</p>
+      <div class="row">
+  <p>Markdown heeft verschillende soorten om paragrafen te laten zien.</p>
 
-<p>Contrairement aux applications de traitement de texte encombrantes, le texte écrit en
-La démarque peut être facilement partagée entre les ordinateurs, les téléphones portables et les gens. C’est en train de devenir rapidement la norme d’écriture pour les <a href="http://chronicle.com/blogs/profhacker/markdown-the-syntax-you-probably-already-know/35295">universitaires</a>, <a href="http://blogs.plos.org/mfenner/2012/12/13/a-call-for-scholarly-markdown/">scientifiques</a><a href="http://blogs.plos.org/mfenner/2012/12/13/a-call-for-scholarly-markdown/">scientifiques</a>, <a href="http://lifehacker.com/5943320/what-is-markdown-and-why-is-it-better-for-my-to+do-lists-and-notes">rédacteurs</a>, et beaucoup plus.  Des sites Web comme <a href="https://www.github.com">GitHub</a> et <a href="http://www.reddit.com">reddit</a> utilisent Markdown pour rédiger leurs commentaires.</p>
+  <p>
+  Laten we eens kijken naar deze Haiku van de Japanse dichter Basho:
+  </p>
+  <p>
+    O, oude vijver<br />
+    een kikker springt van de kant<br />
+    geluid van water<br />
+  </p>
+  <p>
+    Je zou denken, iedere regel een nieuwe regel en het probleem is opgelost.
+  </p>
+  <pre>
+    O, oude vijver
+    een kikker springt van de kant
+    geluid van water
+</pre>
+  <p>
+    Helaas! Markdown zorgt er dan voor dat alles bij elkaar blijft... dit is het resultaat van bovenstaande Haiku:
+    O, oude vijver
+    een kikker springt van de kant
+    geluid van water
 
-<p>Le formatage du texte dans Markdown a une courbe d’apprentissage très douce. Il ne fait rien de fantaisiste comme changer la taille de police, la couleur ou le type de police. Tout ce que vous contrôlez, c’est l’affichage du texte, comme la mise en gras, la création d’en-têtes et l’organisation des listes.</p>
+  </p>
+  <p>
+    Je kunt een extra witregel toevoegen dan krijg je onderstaand resultaat.
+  </p>
+  <pre>
+    O, oude vijver
+    een kikker springt van de kant
+    geluid van water
+</pre
+  >
+  <p>
+    Dit noemen we ook wel een <em>harde enter</em> (dit komt uit de tijd van typemachines... heel oud!). Wat wij hier willen gebruiken heet een <em>zachte enter</em>. Dit kun je doen door aan het einde van de regel twee spaties toe te voegen. Doordat je spaties niet ziet vervangen we dit voor de uitleg door puntjes(<code>.</code>). Ieder puntje is een spatie.
 
-<p>Si vous avez dix minutes, vous pouvez apprendre Markdown !</p>
 
-<p>Dans chaque leçon, une introduction à un seul concept de démarque vous sera présentée. Ensuite, on vous demandera de completer plusieurs exercices avec ces nouvelles connaissances.</p>
+  </p>
+  <pre>
+    O, oude vijver..
+    een kikker springt van de kant..
+    geluid van water
+</pre
+  >
 
-<p><a class="btn btn btn-lg btn-success" href="/fr/lesson/1">Prêt ? Commençons!</a></p>
+  <p>
+    Maak de volgende opdracht. In het venster hieronder, zorg ervoor dat het gedicht met zachte enters (dus puntjes) er mooi uitziet.
+  </p>
 
+  <div class="col-md-5 scratchpad"></div>
+  <span
+    class="help-tooltip icon-question"
+    data-toggle="tooltip"
+    data-original-title="Type in het veld aan de linkerkant het antwoord op de vraag. In het rechterveld zie je dan het resultaat. Heb je het goede antwoord dan kun je verder met de volgende opdracht."
+  ></span>
+  <div class="col-md-5 renderpad"></div>
+</div>
+<button class="btn btn-default btn-skip">Skip</button>
+
+<div class="toBeRevealed">
+  <div class="row">
+    <hr />
+    <p>Goed gedaan!</p>
+    <p>
+      We gebruiken zachte enters voor het opmaken van een gedicht. Je kunt er nog meer mee. Weet je nog uit het vorige hoofdstuk dat we met lijsten aan de slag zijn geweest? In de laatste oefening maken we een lijst op, met daarin zachte enters!
+    </p>
+    <p>
+      Maak de volgende opdracht. In het veld hieronder, zorg ervoor dat de regels niet los zweven, maar samen een blokje tekst vormen. Na 1. zorg je ervoor dat de tekst aan een stuk doorloopt en pas bij 2. een nieuwe regel vormt.
+    </p>
+    <div class="col-md-5 scratchpad"></div>
+    <div class="col-md-5 renderpad"></div>
+  </div>
+  <button class="btn btn-default btn-skip">Skip</button>
+</div>
+
+<div class="toBeRevealed">
+  <hr />
+  <p>Je kunt het! Jij weet nu het verschil tussen een harde en een zachte enter.</p>
+  <a
+    class="btn btn-lg btn-success"
+    href="/nl/conclusion"
+    >Door naar de volgende les!</a
+  >
+</div>
 
 
       <hr />
@@ -215,7 +288,7 @@ La démarque peut être facilement partagée entre les ordinateurs, les téléph
     </script>
 
     <script integrity="sha256-J6LAIXXdnjzFVhR2nbtFYW4ub2I7VePhGVt9LbyZ7GE=" crossorigin="anonymous" src="/https://www.markdowntutorial.com/assets/main-27a2c02175dd9e3cc55614769dbb45616e2e6f623b55e3e1195b7d2dbc99ec61.js" type="text/javascript"></script> 
-    <script src="/fr/lesson_plans.js"></script>
+    <script src="/nl/lesson_plans.js"></script>
     
   </body>
 </html>
